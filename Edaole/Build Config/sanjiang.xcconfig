@@ -1,0 +1,29 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//  umpay http://116.112.3.158:9011/app/api.php
+
+#include "PreConfig.xcconfig"
+TARGET = sanjiang
+BundleIdentifier = com.app.${TARGET}
+Theme       = pink //pink//blue//red
+DetailInfo  = "客服电话:  18977272719    团购合作：18077269292"
+Weibo       = 
+Host        = www.3jtgw.com
+Protocol    = http
+ProductDisplayName = 三江团购网
+
+// 分享组件的Key
+WeChatAppID =
+SinaWeiboKey =
+SinaWeiboSecret      =
+SinaWeiboRedirectPath = example.com
+QZoneAppID  =
+QZoneAppSecret       =
+
+OptionHidenQlogin = 1
+
+#include "PostConfig.xcconfig"

@@ -1,0 +1,27 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+TARGET = shenqiu
+#include "PreConfig.xcconfig"
+BundleIdentifier = com.app.${TARGET}
+Theme       = blue
+DetailInfo  = "客服电话: （18639432759）   团购合作：（18337072639）"
+Weibo       = weibo.com/shenqiutuan
+Host        = www.shenqiutuan.com
+ProductDisplayName = 沈丘团
+Protocol    = http
+
+
+// 分享组件的Key
+WeChatAppID =
+SinaWeiboKey =
+SinaWeiboSecret =
+SinaWeiboRedirectPath = xx.xx
+QZoneAppID  =
+QZoneAppSecret  =
+
+#include "PostConfig.xcconfig"

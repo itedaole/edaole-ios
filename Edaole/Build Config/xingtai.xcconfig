@@ -1,0 +1,29 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = xingtai
+BundleIdentifier = com.app.${TARGET}
+Theme       = blue
+DetailInfo  = "客服电话: （0319-3030123）   团购合作：（0319-3030123）"
+Weibo       = e.weibo.com/1819046451/profile
+Host        = t.xingtaituan.com
+ProductDisplayName = 邢台团购网
+Protocol    = http
+
+// 分享组件的Key
+WeChatAppID = wxeb94c18bbb5b8dd2
+SinaWeiboKey = 3711538267
+SinaWeiboSecret = 6c64a04075865fa29223e7282e181865
+SinaWeiboRedirectPath = xingtaituan.com
+QZoneAppID  =   100489427
+QZoneAppSecret  = 44181e0bcf055883362a69f3cfaea334
+
+UmengKey    = 529eec9456240b78480e922d
+
+#include "PostConfig.xcconfig"

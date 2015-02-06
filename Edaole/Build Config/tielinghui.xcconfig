@@ -1,0 +1,30 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//  umpay http://116.112.3.158:9011/app/api.php
+
+#include "PreConfig.xcconfig"
+TARGET = tielinghui
+BundleIdentifier = com.app.${TARGET}
+
+Theme       =  orange //pink//blue//red
+DetailInfo  = "客服电话: 024-74111222    团购合作：400-688-0410"
+Weibo       =
+Host        = www.tielinghui.com
+Protocol    = http
+ProductDisplayName = 铁岭惠
+
+// 分享组件的Key
+WeChatAppID =
+SinaWeiboKey =
+SinaWeiboSecret      =
+SinaWeiboRedirectPath = example.com
+QZoneAppID  =
+QZoneAppSecret       =
+
+UmengKey    = 5340d4a656240b5a30122b5b
+
+#include "PostConfig.xcconfig"

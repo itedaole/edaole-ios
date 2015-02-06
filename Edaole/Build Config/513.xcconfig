@@ -1,0 +1,30 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = 513
+BundleIdentifier = com.app.${TARGET}
+Theme       = blue
+DetailInfo  = "客服电话: （400-6181-513）   团购合作：（）"
+Weibo       = weibo.com/u/3617148593
+Host        = www.tuangou513.com
+ProductDisplayName = 团购513
+Protocol    = http
+
+// 分享组件的Key
+WeChatAppID = wxcd5548b048902ca1
+SinaWeiboKey = 2031420615
+SinaWeiboSecret = 11a886d8d05f5e86ddf3659e2ae2c97f
+SinaWeiboRedirectPath = example.com
+QZoneAppID  =   100718950
+QZoneAppSecret  = 83ea0d9854951276907da59c4cd6b70f
+
+//隐藏QQ登录
+OptionHiddenQlogin = YES
+
+#include "PostConfig.xcconfig"

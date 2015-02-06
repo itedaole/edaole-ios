@@ -1,0 +1,28 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//  umpay http://116.112.3.158:9011/app/api.php
+
+#include "PreConfig.xcconfig"
+TARGET = zhaozhaotuan
+BundleIdentifier = com.app.${TARGET}
+
+Theme       = pink //pink//blue//red
+DetailInfo  = "客服电话: 0832-2180008    团购合作：18383263024"
+Weibo       =
+Host        = zhaozhaogouwu.com
+Protocol    = http
+ProductDisplayName = 招招团
+
+// 分享组件的Key
+WeChatAppID =
+SinaWeiboKey =
+SinaWeiboSecret      =
+SinaWeiboRedirectPath = example.com
+QZoneAppID  =
+QZoneAppSecret       = 
+
+#include "PostConfig.xcconfig"

@@ -1,0 +1,31 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = kuaile-sanming
+BundleIdentifier = com.app.${TARGET}
+Theme       = blue
+DetailInfo  = "客服电话: 400-0598-870 团购合作电话:13328919280"
+Weibo       = www.weibo.com/0598t
+Host        = sanming.0598k.com
+ProductDisplayName = 三明快乐团
+Protocol    = http
+
+
+// 分享组件的Key
+WeChatAppID =
+SinaWeiboKey =
+SinaWeiboSecret =
+SinaWeiboRedirectPath = laniqu.com
+QZoneAppID  =
+QZoneAppSecret  = 
+
+
+UmengKey    = 52ca5d6656240bda07146c91
+
+#include "PostConfig.xcconfig"

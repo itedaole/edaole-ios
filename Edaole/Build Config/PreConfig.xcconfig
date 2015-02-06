@@ -1,0 +1,18 @@
+//
+//  PreConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 10/21/14.
+//
+//
+
+XGAPPID = 0
+XGAPPKey = NA
+// 分享组件的Key
+WeChatAppID = NA
+SinaWeiboKey = NA
+SinaWeiboSecret = NA
+SinaWeiboRedirectPath = NA
+QZoneAppID  = NA
+QZoneAppSecret  = NA
+UmengKey    = NA

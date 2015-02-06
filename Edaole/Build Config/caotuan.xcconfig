@@ -1,0 +1,28 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = caotuan
+BundleIdentifier = com.app.${TARGET}
+Theme       = red
+DetailInfo  = "客服电话: 13500103019 团购合作电话:13500103019"
+Weibo       =
+Host        = www.chaotg.com
+ProductDisplayName = 潮团购
+Protocol    = http
+
+
+// 分享组件的Key
+WeChatAppID =
+SinaWeiboKey =
+SinaWeiboSecret =
+SinaWeiboRedirectPath = laniqu.com
+QZoneAppID  =
+QZoneAppSecret  = 
+
+#include "PostConfig.xcconfig"

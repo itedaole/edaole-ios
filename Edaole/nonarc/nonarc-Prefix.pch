@@ -1,0 +1,17 @@
+//
+// Prefix header for all source files of the 'nonarc' target in the 'nonarc' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#import "UIButton+Conf.h"
+#import "NSObject+Utils.h"
+#import "UIView+Sizes.h"
+#import "UIBarButtonItem+Factory.h"
+#import "JSONKit.h"
+#import "AppDelegate.h"
+#import "ModelKeyPath.h"
+#import "TGURL.h"
+#import "Theme.h"
+#import "Session.h"
+#endif

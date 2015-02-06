@@ -1,0 +1,29 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//  umpay http://116.112.3.158:9011/app/api.php
+
+#include "PreConfig.xcconfig"
+TARGET = milishoushen
+BundleIdentifier = com.app.${TARGET}
+Theme       = pink //pink//blue//red
+DetailInfo  = "客服电话: 0571-86717196    团购合作：18910222508"
+Weibo       = weibo.com/u/1906456533
+Host        = www.milishoushen.net
+Protocol    = http
+ProductDisplayName = 米粒瘦身网
+
+// 分享组件的Key
+WeChatAppID =
+SinaWeiboKey =
+SinaWeiboSecret      =
+SinaWeiboRedirectPath = example.com
+QZoneAppID  =
+QZoneAppSecret       =
+
+UmengKey    = 53a58d7756240be6f30916db
+
+#include "PostConfig.xcconfig"

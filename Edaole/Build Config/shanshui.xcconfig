@@ -1,0 +1,29 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = shanshui
+BundleIdentifier = com.app.${TARGET}
+Theme       = blue
+DetailInfo  = "客服电话: 13861103977     团购合作：13861105786"
+Weibo       = weibo.com/3sjtcom
+Host        = t.3sjt.com
+ProductDisplayName = 山水团
+Protocol    = http
+
+// 分享组件的Key
+WeChatAppID = wxcd5548b048902ca1
+SinaWeiboKey = 2031420615
+SinaWeiboSecret = 11a886d8d05f5e86ddf3659e2ae2c97f
+SinaWeiboRedirectPath = example.com
+QZoneAppID  =   100718950
+QZoneAppSecret  = 83ea0d9854951276907da59c4cd6b70f
+
+UmengKey    = 520c8a9356240b751a001251
+
+#include "PostConfig.xcconfig"

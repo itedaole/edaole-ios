@@ -1,0 +1,30 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = chituan
+BundleIdentifier = com.app.${TARGET}
+Theme       = blue
+DetailInfo  = "客服电话: （0476-8863290）   团购合作：（0476-8863290）"
+Weibo       = weibo.com/taince
+Host        = www.0476t.com
+ProductDisplayName = 赤团网
+Protocol    = http
+
+
+// 分享组件的Key
+WeChatAppID =
+SinaWeiboKey =
+SinaWeiboSecret =
+SinaWeiboRedirectPath = laniqu.com
+QZoneAppID  =
+QZoneAppSecret  = 
+
+UmengKey    = 52ca133156240b056109721c
+
+#include "PostConfig.xcconfig"

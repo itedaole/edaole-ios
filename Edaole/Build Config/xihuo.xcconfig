@@ -1,0 +1,28 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = xihuo
+BundleIdentifier = com.app.${TARGET}
+Theme       = blue
+DetailInfo  = "客服电话: （18634785889）   团购合作：（18634785889）"
+Weibo       = xx.xx
+Host        = www.xihuo.cc
+ProductDisplayName = 细活
+Protocol    = http
+
+
+// 分享组件的Key
+WeChatAppID = wx062e6611249fcc74
+SinaWeiboKey = 459041555
+SinaWeiboSecret = 822122306bdbe70e59203401a3b73913
+SinaWeiboRedirectPath = example.com
+QZoneAppID  =   100482853
+QZoneAppSecret  = 0756a1bbd588b82f112543871db515ec
+
+#include "PostConfig.xcconfig"

@@ -1,0 +1,27 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = dajia
+BundleIdentifier = com.app.${TARGET}
+Theme       = blue
+DetailInfo  = "客服电话: （15923700410）"
+Weibo       = weibo.com/u/3045102435
+Host        = www.dakadianping.com
+ProductDisplayName = 大咖团
+Protocol    = http
+
+// 分享组件的Key
+WeChatAppID = 
+SinaWeiboKey = 
+SinaWeiboSecret = 
+SinaWeiboRedirectPath = 
+QZoneAppID  =   
+QZoneAppSecret  = 
+
+#include "PostConfig.xcconfig"

@@ -1,0 +1,18 @@
+//
+//  PostConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-7-1.
+//
+//
+
+ShareSDKKey = 457b62dcad8
+
+EXECUTABLE=TARGET
+GCC_PREPROCESSOR_DEFINITIONS = $(value) kWeChatAppID=@\"$(WeChatAppID)\" kQZoneAppID=@\"$(QZoneAppID)\" kSinaWeiboKey=@\"$(SinaWeiboKey)\" kTheme=@\"$(Theme)\" kDetailInfo=@\"$(DetailInfo)\" kHost=@\"$(Host)\" kProtocol=@\"$(Protocol)\" kUmengKey=@\"$(UmengKey)\" kShareSDKKey=@\"$(ShareSDKKey)\" kSinaWeiboSecret=@\"$(SinaWeiboSecret)\" kSinaWeiboRedirectPath=@\"$(SinaWeiboRedirectPath)\" kQZoneAppSecret=@\"$(QZoneAppSecret)\" kProtocol=@\"$(Protocol)\" kAppForPlat=@\"$(AppForPlat)\" kOptionHidenQlogin=@\"$(OptionHidenQlogin)\" kXGAPPID=$(XGAPPID) kXGAPPKey=@\"$(XGAPPKey)\"
+
+
+OTHER_LDFLAGS = $(inherited) -framework AudioToolbox -framework CoreFoundation -framework Security -framework AVFoundation -framework MediaPlayer -framework QuartzCore -framework CoreGraphics -ObjC
+
+//kOptionHidenQlogin 定义这个就显示QQ登录
+//kOptionDetail3Support 这个显示详细团购下面的三个支持

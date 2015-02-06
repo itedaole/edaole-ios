@@ -1,0 +1,31 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+TARGET = tengzhou
+#include "PreConfig.xcconfig"
+BundleIdentifier = com.app.${TARGET}
+
+Theme       = pink
+DetailInfo  = "客服电话:(400-0632-550) 团购合作:(400-0632-550)"
+Weibo       = weibo.com/u/3919347006
+Host        = www.tengzhoutuan.cn
+ProductDisplayName = 滕州团
+Protocol    = http
+
+
+// 分享组件的Key
+WeChatAppID =
+SinaWeiboKey =
+SinaWeiboSecret =
+SinaWeiboRedirectPath = laniqu.com
+QZoneAppID  =
+QZoneAppSecret  = 
+
+
+UmengKey    = 52ca6f6356240b37514aa4f1
+
+#include "PostConfig.xcconfig"

@@ -1,0 +1,27 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = hexing
+BundleIdentifier = com.app.${TARGET}
+Theme       = pink
+DetailInfo  = "客服电话:(400-0735-389)团购合作:(0735-2372999)"
+Weibo       = weibo.com/hxgo
+Host        = www.hxtgo.com
+ProductDisplayName = 和兴团
+Protocol    = http
+
+// 分享组件的Key
+WeChatAppID = www-hxgo-com
+SinaWeiboKey =1077412905
+SinaWeiboSecret =4bed696c2a7606202ee70a52d9923ea6
+SinaWeiboRedirectPath =example.com
+QZoneAppID  =100504205
+QZoneAppSecret  = 7c3af2f56ba6c42855f782b17dc1bb38
+
+#include "PostConfig.xcconfig"

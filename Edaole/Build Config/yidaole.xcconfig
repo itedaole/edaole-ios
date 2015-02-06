@@ -1,0 +1,29 @@
+//
+//  yidaole.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 11/25/14.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = yidaole
+BundleIdentifier = com.app.${TARGET}
+Theme       = orange //pink//blue//red//orange
+DetailInfo  = "欢迎使用一道乐"
+Weibo       = weibo.com
+Host        = www.edaole.com
+Protocol    = http
+ProductDisplayName = 一道乐
+
+// 分享组件的Key
+// WeChatAppID = wx3a8725ddaf1deac9
+// SinaWeiboKey =
+// SinaWeiboSecret      =
+// SinaWeiboRedirectPath = example.com
+//QZoneAppID  =
+//QZoneAppSecret       =
+
+// UmengKey    = 5376e7db56240b3f7f0897bb
+
+#include "PostConfig.xcconfig"

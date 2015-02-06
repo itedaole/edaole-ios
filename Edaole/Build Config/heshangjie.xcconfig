@@ -1,0 +1,31 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = heshangjie
+BundleIdentifier = com.app.${TARGET}
+Theme       = blue
+DetailInfo  = "客服电话:（0395-6666826）团购合作：（18939597305）"
+Weibo       = weibo.com/heshangjie
+Host        = tuan.462000.com
+ProductDisplayName = 河上街团
+Protocol    = http
+
+// 分享组件的Key
+WeChatAppID = wx96819ebcb6453570
+
+SinaWeiboKey =
+SinaWeiboSecret =
+SinaWeiboRedirectPath =example.com
+QZoneAppID  =
+QZoneAppSecret  =
+
+UmengKey    = 5248de5d56240b850a047199
+
+
+#include "PostConfig.xcconfig"

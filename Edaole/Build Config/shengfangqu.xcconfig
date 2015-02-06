@@ -1,0 +1,30 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = shengfangqu
+BundleIdentifier = com.app.${TARGET}
+Theme       =  blue
+DetailInfo  = "客服电话: （0316-7038288）"
+Weibo       = t.qq.com/luly719588456
+Host        = www.sf5188.com
+ProductDisplayName = 胜芳趣团
+Protocol    = http
+
+
+// 分享组件的Key
+WeChatAppID = luly719588456
+SinaWeiboKey =
+SinaWeiboSecret =
+SinaWeiboRedirectPath = laniqu.com
+QZoneAppID  =
+QZoneAppSecret  = 
+
+UmengKey    = 52ca3a9256240b696402cfb1
+
+#include "PostConfig.xcconfig"

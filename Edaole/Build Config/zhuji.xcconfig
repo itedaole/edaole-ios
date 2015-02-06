@@ -1,0 +1,29 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = zhuji
+BundleIdentifier = com.app.${TARGET}
+Theme       = blue
+DetailInfo  = "客服电话: （4000080575）   团购合作：（4000080575）"
+Weibo       = e.weibo.com/575tuan
+Host        = www.575tuan.com
+ProductDisplayName = 诸暨团购网
+Protocol    = http
+
+// 分享组件的Key
+WeChatAppID = 
+SinaWeiboKey = 
+SinaWeiboSecret = 
+SinaWeiboRedirectPath = 
+QZoneAppID  =   
+QZoneAppSecret  = 
+
+UmengKey    = 526643d556240bc283022672
+
+#include "PostConfig.xcconfig"

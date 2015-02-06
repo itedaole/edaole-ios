@@ -1,0 +1,28 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = aipingtuan
+BundleIdentifier = com.app.${TARGET}
+Theme       = pink
+DetailInfo  = "客服电话: （400-696-0223）   团购合作：（400-696-0223）"
+Weibo       = weibo.com/u/2797879823
+Host        = wwwa.aipintuan.com
+ProductDisplayName = 爱拼团
+Protocol    = http
+
+
+// 分享组件的Key
+WeChatAppID =
+SinaWeiboKey =
+SinaWeiboSecret =
+SinaWeiboRedirectPath = xx.xx
+QZoneAppID  =
+QZoneAppSecret  =
+
+#include "PostConfig.xcconfig"

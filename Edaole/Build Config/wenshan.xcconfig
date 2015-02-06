@@ -1,0 +1,30 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = wenshan
+BundleIdentifier = com.app.${TARGET}
+Theme       = red
+DetailInfo  = "客服电话: 13658766299 团购合作电话:13658766299"
+Weibo       =
+Host        = 876tg.com
+ProductDisplayName = 文山团购
+Protocol    = http
+
+
+// 分享组件的Key
+WeChatAppID =
+SinaWeiboKey =
+SinaWeiboSecret =
+SinaWeiboRedirectPath = laniqu.com
+QZoneAppID  =
+QZoneAppSecret  =
+
+UmengKey    = 52ca78ae56240be71b15f261
+
+#include "PostConfig.xcconfig"

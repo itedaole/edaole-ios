@@ -1,0 +1,29 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = yile
+BundleIdentifier = com.app.${TARGET}
+Theme       = blue
+DetailInfo  = "客服电话: 18635951308   团购合作：18635951308"
+Weibo       =
+Host        = www.yile88.com
+ProductDisplayName = 亿乐
+Protocol    = http
+
+// 分享组件的Key
+WeChatAppID = ddcca62e06322e499f55d42f74d4d5b6
+SinaWeiboKey =1280218440
+SinaWeiboSecret =68e8c320b6cc3ed57a5d93389e3430dd
+SinaWeiboRedirectPath =example.com
+QZoneAppID  =100587847
+QZoneAppSecret  = 0c900eabb1911227d6d6de5b795d9f5f
+
+UmengKey    = 52a5819f56240b82790ee19b
+
+#include "PostConfig.xcconfig"

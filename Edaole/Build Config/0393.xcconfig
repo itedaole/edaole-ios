@@ -1,0 +1,19 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//  umpay http://116.112.3.158:9011/app/api.php
+
+#include "PreConfig.xcconfig"
+TARGET = 0393
+BundleIdentifier = com.app.${TARGET}
+Theme       = red //pink//blue//red//orange
+DetailInfo  = "客服电话:      团购合作："
+Weibo       = weibo.com/0393tuangou
+Host        = www.0393tuangou.com
+Protocol    = http
+ProductDisplayName = 0393团购
+
+#include "PostConfig.xcconfig"

@@ -1,0 +1,27 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = haotuan
+BundleIdentifier = com.app.${TARGET}
+Theme       = blue
+DetailInfo  = "客服电话: （18012278666）   团购合作：（18012278666）"
+Weibo       = t.qq.com/haotuantuangou
+Host        = www.haottg.com
+ProductDisplayName = 豪团团购网
+Protocol    = http
+
+// 分享组件的Key
+WeChatAppID = 
+SinaWeiboKey = 3791254563
+SinaWeiboSecret = 4a55ac96290a0aaed81e019b5cc9990b
+SinaWeiboRedirectPath = haottg.com
+QZoneAppID  =   100537276
+QZoneAppSecret  = 4cb8f8521919b314e270f71b1e7e9e7a
+
+#include "PostConfig.xcconfig"

@@ -1,0 +1,29 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = jiayou
+BundleIdentifier = com.app.${TARGET}
+Theme       = orange
+DetailInfo  = "客服电话: 0573-84028993    团购合作：15988349943"
+Weibo       = www.weibo.com/jiayoutuan
+Host        = www.jiayoutuan.com
+Protocol    = http
+ProductDisplayName = 嘉友团购
+
+// 分享组件的Key
+WeChatAppID           = wxcd5548b048902ca1
+SinaWeiboKey          = 2031420615
+SinaWeiboSecret       = 11a886d8d05f5e86ddf3659e2ae2c97f
+SinaWeiboRedirectPath = example.com
+QZoneAppID            = 100718950
+QZoneAppSecret        = 83ea0d9854951276907da59c4cd6b70f
+
+UmengKey    = 51f78f6756240ba2f3005994
+
+#include "PostConfig.xcconfig"

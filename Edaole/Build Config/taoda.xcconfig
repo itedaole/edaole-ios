@@ -1,0 +1,27 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = taoda
+BundleIdentifier = com.app.${TARGET}
+Theme       = blue
+DetailInfo  = "客服电话: 4007-118-114     团购合作：15888918114"
+Weibo       = weibo.com/taodatuan
+Host        = www.taoda.cn
+ProductDisplayName = 淘大
+Protocol    = http
+
+// 分享组件的Key
+WeChatAppID = wxcd5548b048902ca1
+SinaWeiboKey = 2031420615
+SinaWeiboSecret = 11a886d8d05f5e86ddf3659e2ae2c97f
+SinaWeiboRedirectPath = example.com
+QZoneAppID  =   100718950
+QZoneAppSecret  = 83ea0d9854951276907da59c4cd6b70f
+
+#include "PostConfig.xcconfig"

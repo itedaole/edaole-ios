@@ -1,0 +1,27 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//  umpay http://116.112.3.158:9011/app/api.php
+
+#include "PreConfig.xcconfig"
+TARGET = rexian
+BundleIdentifier = com.app.${TARGET}
+Theme       = blue //pink//blue//red
+DetailInfo  = "客服电话: 2355769124    团购合作：051187286599"
+Weibo       = weibo.com/u/1906456533
+Host        = tuan.jrhot.com
+Protocol    = http
+ProductDisplayName = 句容热线团
+
+// 分享组件的Key
+WeChatAppID =
+SinaWeiboKey =
+SinaWeiboSecret      =
+SinaWeiboRedirectPath = example.com
+QZoneAppID  =
+QZoneAppSecret       = 
+
+#include "PostConfig.xcconfig"

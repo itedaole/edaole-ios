@@ -1,0 +1,19 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by ibcker on 13-6-18.
+//
+//  umpay http://116.112.3.158:9011/app/api.php
+
+#include "PreConfig.xcconfig"
+TARGET = xuanhan
+BundleIdentifier = com.app.${TARGET}
+Theme       = blue //pink//blue//red//orange
+DetailInfo  = "客服电话:0818-5538988      团购合作：0818-5538988"
+Weibo       = weibo.com/xh125com
+Host        = www.xh125.com
+Protocol    = http
+ProductDisplayName = 宣汉团购网
+
+#include "PostConfig.xcconfig"

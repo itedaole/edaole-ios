@@ -1,0 +1,31 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = shenqianshengqi
+//BundleIdentifier = com.app.${TARGET_NAME}
+BundleIdentifier = com.app.${TARGET}
+
+Theme       = red
+DetailInfo  = "客服电话: （05988289900）   团购合作：（05988289900）"
+Weibo       = t.qq.com/haotuantuangou
+Host        = www.shengqianshenqi.com
+ProductDisplayName = 省钱神器
+Protocol    = http
+
+// 分享组件的Key
+WeChatAppID =
+SinaWeiboKey =
+SinaWeiboSecret =
+SinaWeiboRedirectPath =example.com
+QZoneAppID  =
+QZoneAppSecret  =
+
+UmengKey    = 53906bad56240b01bc02858f
+
+#include "PostConfig.xcconfig"

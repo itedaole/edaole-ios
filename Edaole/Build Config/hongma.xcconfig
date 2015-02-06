@@ -1,0 +1,30 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = hongma
+BundleIdentifier = com.app.${TARGET}
+Theme       = pink //pink//blue//red
+DetailInfo  = "客服电话: 18718628765 团购合作电话:18718628765"
+Weibo       =
+Host        = homa46.com
+ProductDisplayName = 洪马团
+Protocol    = http
+
+
+// 分享组件的Key
+WeChatAppID =
+SinaWeiboKey =
+SinaWeiboSecret =
+SinaWeiboRedirectPath = laniqu.com
+QZoneAppID  =
+QZoneAppSecret  = 
+
+UmengKey    = 52ca7df956240be27f16a9e1
+
+#include "PostConfig.xcconfig"

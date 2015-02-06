@@ -1,0 +1,30 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = danzhou
+BundleIdentifier = com.app.${TARGET}
+Theme       = blue
+DetailInfo  = "客服电话: （0898-23330996）   团购合作：（18608908831）"
+Weibo       = weibo.com/danzhoutuan
+Host        = www.danzhoutuan.com
+ProductDisplayName = 儋州团购网
+Protocol    = http
+
+
+// 分享组件的Key
+WeChatAppID =
+SinaWeiboKey =
+SinaWeiboSecret =
+SinaWeiboRedirectPath = xx.xx
+QZoneAppID  =
+QZoneAppSecret  =
+
+UmengKey    = 5357318556240b2f8e08338a
+
+#include "PostConfig.xcconfig"

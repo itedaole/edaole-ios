@@ -1,0 +1,71 @@
+#/bin/bash
+if [ "$1" == "" ];
+then
+	flag="0";
+	xcodebuild -list | while read line
+	do
+		if [ "$flag" = "1" ];
+		then
+			if [ "$line" = "" ]
+			then
+				flag="0";
+			else
+				if [ "$line" != "tuangouproject" ] && [ "$line" != "nonarc" ];
+				then
+					echo '	  '$line;
+				fi
+			fi
+		else
+			if [ "$line" == "Targets:" ];
+			then
+				flag="1";
+				echo "all Target:"
+			fi		
+		fi
+	done
+else
+	mkdir product
+	if [ "$1" == "all" ];
+	then 
+		xcodebuild clean
+		flag="0";
+		xcodebuild -list | while read line
+		do
+			if [ "$flag" = "1" ];
+			then
+				if [ "$line" = "" ]
+				then
+					flag="0";
+				else
+					if [ "$line" != "tuangouproject" ] && [ "$line" != "nonarc" ];
+					then
+						echo ------开始打包: $line;
+						xcodebuild -target "$line" -configuration Release -sdk iphoneos build -xcconfig "Build Config/$i.xcconfig"
+						xcrun -sdk iphoneos PackageApplication -v build/Release-iphoneos/$line.app -o `pwd`/product/$line.ipa
+					fi
+				fi
+			else
+				if [ "$line" == "Targets:" ];
+				then
+					flag="1";
+					echo "all Target:"
+				fi		
+			fi
+		done
+	else
+		echo ">clean"
+		xcodebuild clean 1>/dev/null
+		for i in $*
+		do
+			echo ">编译: $i"
+			cat "Build Config/$i.xcconfig"
+			echo 
+			echo ------------------------------
+			xcodebuild -target "tuangouproject" -configuration Release -sdk iphoneos build -xcconfig "Build Config/$i.xcconfig" 1>/dev/null
+			echo ">打包: $i"
+			xcrun -sdk iphoneos PackageApplication -v build/Release-iphoneos/$i.app -o `pwd`/product/$i.ipa
+		done
+		open product
+	fi
+fi
+	

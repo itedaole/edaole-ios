@@ -1,0 +1,27 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = wenyou
+BundleIdentifier = com.app.${TARGET}
+Theme       = blue
+DetailInfo  = "客服电话: （400-001-0514）   团购合作：（400-001-0514）"
+Weibo       = weibo.com/wenyoutai
+Host        = tuan.wenyoutai.com
+Protocol    = http
+ProductDisplayName = 文游团
+
+// 分享组件的Key
+WeChatAppID = wx5ead6baac97b00ec
+SinaWeiboKey = 1527545692
+SinaWeiboSecret      = 1fc93be78cccd985b243669f31367624
+SinaWeiboRedirectPath = tuan.wenyoutai.com
+QZoneAppID  = 100490455
+QZoneAppSecret       = 88753dac44c4a202a893858b51aa9e9b
+
+#include "PostConfig.xcconfig"

@@ -1,0 +1,27 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = T5
+BundleIdentifier = com.app.${TARGET}
+Theme       = blue
+DetailInfo  = "客服电话:400-650-5870  团购合作：18108991998"
+Weibo       = t.qq.com/tuangou5
+Host        = www.tuangou5.com
+ProductDisplayName = T5团购
+Protocol    = http
+
+// 分享组件的Key
+WeChatAppID = 
+SinaWeiboKey =
+SinaWeiboSecret =
+SinaWeiboRedirectPath =example.com
+QZoneAppID  =
+QZoneAppSecret  = 
+
+#include "PostConfig.xcconfig"

@@ -1,0 +1,28 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = diyipiaowu
+BundleIdentifier = com.app.${TARGET}
+Theme       = red
+DetailInfo  = "客服电话: （4008001722）   团购合作：（4008001722）"
+Weibo       = weibo.com/3977685581
+Host        = www.piaowu001.com
+ProductDisplayName = 第一票务网
+Protocol    = http
+
+
+// 分享组件的Key
+WeChatAppID =
+SinaWeiboKey =
+SinaWeiboSecret =
+SinaWeiboRedirectPath = xx.xx
+QZoneAppID  =
+QZoneAppSecret  =
+
+#include "PostConfig.xcconfig"

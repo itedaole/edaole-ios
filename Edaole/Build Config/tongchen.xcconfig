@@ -1,0 +1,29 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = tongchen
+BundleIdentifier = com.app.${TARGET}
+
+Theme       = blue
+DetailInfo  = "客服电话: （4000021513）   团购合作：（4000021513）"
+Weibo       = t.qq.com/qionghainet
+Host        = www.9836.net
+ProductDisplayName = 同城商城
+Protocol    = http
+
+
+// 分享组件的Key
+WeChatAppID =
+SinaWeiboKey =
+SinaWeiboSecret =
+SinaWeiboRedirectPath = laniqu.com
+QZoneAppID  =
+QZoneAppSecret  = 
+
+#include "PostConfig.xcconfig"

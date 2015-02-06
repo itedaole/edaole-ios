@@ -1,0 +1,29 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = 797tuan
+BundleIdentifier = com.app.${TARGET}
+Theme       = blue
+DetailInfo  = "客服电话: 0797-8295797     团购合作：18079708797"
+Weibo       = weibo.com/0797tuan
+Host        = www.0797tuan.com
+ProductDisplayName = 797团
+Protocol    = http
+
+// 分享组件的Key
+WeChatAppID = gz0797tuan
+SinaWeiboKey = 3103570507
+SinaWeiboSecret      = 079a91cc61ee6324a22d7f752acdce50
+SinaWeiboRedirectPath = example.com
+QZoneAppID  = 100290860
+QZoneAppSecret       = 6781efafc78cd9353d4a89e482f594f6
+
+UmengKey    = 5279b7b356240b82620000ec
+
+#include "PostConfig.xcconfig"

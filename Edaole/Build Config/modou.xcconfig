@@ -1,0 +1,31 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//  umpay http://116.112.3.158:9011/app/api.php
+
+#include "PreConfig.xcconfig"
+TARGET = modou
+BundleIdentifier = com.app.${TARGET}
+Theme       = orange //pink//blue//red//orange
+DetailInfo  = "客服电话:400-0543-605      团购合作：400-0543-605"
+Weibo       = weibo.com/u/3954058291
+Host        = www.modotuan.com
+Protocol    = http
+ProductDisplayName = 魔豆团
+XGAPPID = 2200042000
+XGAPPKey = IMLY9FQ3463I
+
+// 分享组件的Key
+WeChatAppID = wx3a8725ddaf1deac9
+// SinaWeiboKey =
+// SinaWeiboSecret      =
+// SinaWeiboRedirectPath = example.com
+//QZoneAppID  =
+//QZoneAppSecret       =
+
+UmengKey    = 5376e7db56240b3f7f0897bb
+
+#include "PostConfig.xcconfig"

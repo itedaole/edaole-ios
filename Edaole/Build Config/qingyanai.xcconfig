@@ -1,0 +1,30 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = qingyanai
+BundleIdentifier = com.app.${TARGET}
+Theme       = pink
+DetailInfo  = "客服电话:(0934-8680295) 团购合作:(18809346066)"
+Weibo       = weibo.com/u/3919347006
+Host        = qytuan.cn
+ProductDisplayName = 庆阳爱团网
+Protocol    = http
+
+
+// 分享组件的Key
+WeChatAppID =
+SinaWeiboKey =
+SinaWeiboSecret =
+SinaWeiboRedirectPath = laniqu.com
+QZoneAppID  =
+QZoneAppSecret  = 
+
+UmengKey    = 52cbc79756240bedd121eab9
+
+#include "PostConfig.xcconfig"

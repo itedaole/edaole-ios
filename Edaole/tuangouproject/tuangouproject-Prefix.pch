@@ -1,0 +1,30 @@
+//
+// Prefix header for all source files of the 'tuangouproject' target in the 'tuangouproject' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+    #import <CoreText/CoreText.h>
+    #import "UIButton+Conf.h"
+    #import "NSObject+Utils.h"
+    #import "UIView+Sizes.h"
+    #import "UIBarButtonItem+Factory.h"
+    #import "JSONKit.h"
+    #import "AppDelegate.h"
+    #import "ModelKeyPath.h"
+    #import "TGURL.h"
+    #import "Theme.h"
+    #import "Session.h"
+#endif
+#ifndef DEBUG
+//#define NSLog(...){}
+#endif
+

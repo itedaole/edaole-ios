@@ -1,0 +1,28 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = runzhong
+BundleIdentifier = com.app.${TARGET}
+Theme       = blue
+DetailInfo  = "客服电话: （4000609796）   团购合作：（15509140780）"
+Weibo       = weibo.com/u/1717760893
+Host        = www.runzhongwang.com
+ProductDisplayName = 52搜索网
+Protocol    = http
+
+
+// 分享组件的Key
+WeChatAppID =wx1e53a5e1f2bb832f
+SinaWeiboKey =4275900711
+SinaWeiboSecret =b1b798ffdb435532561652e06cdaf8df
+SinaWeiboRedirectPath = xx.xx
+QZoneAppID  =1101126263
+QZoneAppSecret  =uttVlYcI3ZH5tiEQ
+
+#include "PostConfig.xcconfig"

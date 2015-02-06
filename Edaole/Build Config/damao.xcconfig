@@ -1,0 +1,27 @@
+//
+//  ConstantsConfig.xcconfig
+//  tuangouproject
+//
+//  Created by stcui on 13-6-18.
+//
+//
+
+#include "PreConfig.xcconfig"
+TARGET = damao
+BundleIdentifier = com.app.${TARGET}
+Theme       = blue
+DetailInfo  = "客服电话: 88888888     团购合作：88888888"
+Weibo       = weibo.com/
+Host        = www.milituan.net
+Protocol    = http
+ProductDisplayName = 大毛网
+
+// 分享组件的Key
+WeChatAppID = wxcd5548b048902ca1
+SinaWeiboKey = 2031420615
+SinaWeiboSecret      = 11a886d8d05f5e86ddf3659e2ae2c97f
+SinaWeiboRedirectPath = example.com
+QZoneAppID  = 100718950
+QZoneAppSecret       = 83ea0d9854951276907da59c4cd6b70f
+
+#include "PostConfig.xcconfig"
